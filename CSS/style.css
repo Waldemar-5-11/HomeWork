@@ -1,0 +1,35 @@
+* {
+    background-color: #bbb;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: 500px;
+}
+
+li {
+    font-size: 24px;
+}
+
+.style-h {
+    text-align: center;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+
+.text-size,
+.art-style {
+color: #444;
+}
+
+.art-style {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 1.5;
+}
