@@ -1,0 +1,81 @@
+*{
+box-sizing: border-box;
+}
+
+header {
+    margin: 0 auto;
+    background-image: url(/img/2023-02-22\ 08.57.55.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+}
+
+img {
+    display: none; 
+}
+
+.head-s,
+.btn-style {
+    color: rgb(244, 137, 8);
+}
+
+.h-style {
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-style {
+    padding: 10px 20px;
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+    top: 50%;     
+    border-radius: 10px;
+    background-color: rgb(233, 164, 79);
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.head-s {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 200px;
+    
+}
+
+.p-st {
+    text-align: center; /* вирівнює текст по центру */
+    position: relative; /* встановлює позицію відносно батьківського елемента */
+    top: 50%; /* зсуває елемент на 50% відносно верхнього краю батьківського елемента */
+    transform: translateY(-50%); /* коригує позицію, щоб елемент був точно посередині */
+}
+
+.line-1,
+.line-2 {
+background-color: bisque;
+}
+
+.line-3 {
+background-color: whitesmoke;
+}
+
+
+.line-2,
+.line-3 {
+    display: inline-block;
+    text-align: center;
+    padding: 0 30px;
+    width: 450px;
+    height: 200px;
+    border: 1px solid grey;
+    
+}
+
+.f-style {
+    font-size: 50px;
+    color: rgb(235, 137, 10);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: bisque;
+}
+
