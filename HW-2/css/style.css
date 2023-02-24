@@ -44,10 +44,10 @@ img {
 }
 
 .p-st {
-    text-align: center; /* вирівнює текст по центру */
-    position: relative; /* встановлює позицію відносно батьківського елемента */
-    top: 50%; /* зсуває елемент на 50% відносно верхнього краю батьківського елемента */
-    transform: translateY(-50%); /* коригує позицію, щоб елемент був точно посередині */
+    text-align: center; 
+    position: relative; 
+    top: 50%; 
+    transform: translateY(-50%); 
 }
 
 .line-1,
