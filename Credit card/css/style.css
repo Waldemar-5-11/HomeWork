@@ -8,8 +8,11 @@ body {
     margin: 0;
 }
 
+span {
+    color: white;
+}
 
-.container-1 {
+.container {
     width: 400px;
     height: 250px;
     border:2px solid black;
@@ -22,7 +25,7 @@ body {
     justify-content: space-around;
 }
 
-.item-1 {
+.item {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex-basis: 65px;
     position: relative;
@@ -32,10 +35,18 @@ body {
     padding-left: 30px;
 }
 
+.h-line {
+    text-align: start; 
+    margin-top: 15px;
+}
+
 .number {
     font-size: xx-large;
     font-weight: bold;
+    text-align: start;
+    margin-top: -50px;
 }
+
 
 .item-1:nth-child(4) {
     margin-bottom: auto;
@@ -43,9 +54,6 @@ body {
     padding-left: 50px;
 }
 
-.material-symbols-outlined {
-    color: white;
-}
 .circle-container {
     position: relative;
     width: 200px;
