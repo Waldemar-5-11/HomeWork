@@ -79,3 +79,7 @@ background-color: whitesmoke;
     background-color: bisque;
 }
 
+
+.btn-style:active {
+    background-color: brown;
+}
