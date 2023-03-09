@@ -1,53 +1,67 @@
 *{
 box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
 }
 
 header {
-    margin: 0 auto;
-    background-image: url(/img/2023-02-22\ 08.57.55.jpg);
+    background-image: url('/HW-2/img/2023-02-22\ 08.57.55.jpg');
     background-size: cover;
     background-position: center;
-    height: 600px; 
+    height: 100vh; 
 }
 
 img {
     display: none; 
 }
 
-.head-s,
-.btn-style {
-    color: rgb(244, 137, 8);
-}
-
-.h-style {
-    text-align: center;
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.btn-style {
-    padding: 10px 20px;
-    display: block; 
-    margin: 0 auto; 
-    position: relative; 
-    top: 50%;     
-    border-radius: 10px;
-    background-color: rgb(233, 164, 79);
-    color: rgba(0, 0, 0, 0.3);
+.head-style {
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .head-s {
-    margin: 0 auto;
-    max-width: 800px;
-    padding-top: 200px;
-    
+    text-align: center;
 }
 
-.p-st {
-    text-align: center; 
-    position: relative; 
+.head-s,
+.btn-style {
+    color: #926239;
+}
+
+.h1-style {
+    font-size: 50px;
+}
+
+.btn-style {
+    font-size: 20px;
+    padding: 15px 20px;
+    margin: 0 auto; 
     top: 50%; 
-    transform: translateY(-50%); 
+    border: 1px solid ;    
+    border-radius: 10px;
+    background-color: transparent;
+
+}
+
+.container {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
 .line-1,
@@ -62,7 +76,7 @@ background-color: whitesmoke;
 
 .line-2,
 .line-3 {
-    display: inline-block;
+    
     text-align: center;
     padding: 0 30px;
     width: 450px;
@@ -77,5 +91,17 @@ background-color: whitesmoke;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     background-color: bisque;
+}
+
+.btn-style:active {
+    background-color:#926239;
+    color: wheat;
+}
+
+@media screen and (max-width:376px) {
+    .line {
+        flex-direction: column;
+    }
+    
 }
 
