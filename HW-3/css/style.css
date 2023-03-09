@@ -11,13 +11,13 @@ body {
     width: 500px;
     height: 300px;
     position: relative;
-    perspective: 1000px;
 }
 
-.card__front, .card__back {
-    position: absolute;
+.card-front, .card-back {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
+    position: absolute;
     backface-visibility: hidden;
 }
 
@@ -31,23 +31,23 @@ body {
     color: red;
 }
 
-.card__front {
+.card-front {
     background-color: black;
     transform: rotateY(0deg);
     transition: transform 1s;
 }
 
-.card__back {
+.card-back {
     background-color: red;
     transform: rotateY(-180deg);
     transition: transform 1s;
 }
 
-.card:hover .card__front {
+.card:hover .card-front {
     transform: rotateY(180deg);
 }
 
-.card:hover .card__back {
+.card:hover .card-back {
     transform: rotateY(0deg);
 }
 
